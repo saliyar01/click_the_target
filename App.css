@@ -1,0 +1,48 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.game-container {
+  max-width: 800px;
+  margin: auto;
+  border: 2px solid white;
+}
+
+.game-area {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #444;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.target {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.score-board {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #f5a623;
+}
+
+.game-over {
+  font-size: 2em;
+  color: #f5a623;
+  margin-top: 20px;
+}
